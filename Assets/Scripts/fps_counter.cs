@@ -2,10 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 
 public class fps_counter : MonoBehaviour
 {
-    public TextMeshPro text;
+    public Text text;
     private int counter;
     private float time;
     // Start is called before the first frame update
